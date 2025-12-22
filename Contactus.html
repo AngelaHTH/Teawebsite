@@ -1,0 +1,243 @@
+<!doctype html> 
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us </title>
+    <link rel="icon" href="Tea.png" style="border-radius: 100px;"/>
+    <link rel="stylesheet" href="tea.css">
+    <style>
+        nav {
+            background-image: url("contactus.jpg");
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 600px; 
+            width: 100%;   
+            padding-bottom: 50px;     
+        }
+
+        .intro {
+            background-color: #DACBA9;
+            padding-top: 10px;
+        }
+
+        .form {
+            width: 60%; 
+            min-width: 500px; 
+            border-radius: 10px;
+            background-color: #E2DAC6;
+            padding: 20px;
+            margin: 30px auto; 
+            margin-bottom: 100px;
+            margin-top: 100px;
+        }
+         
+        .media, .line {
+            display: flex;
+            align-items: center;
+        }
+
+        .media a {
+            color: black;
+        }
+
+        input {
+            border-radius: 10px;
+            border: 1px solid #E3D7BD;
+            width: 90%;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 1px solid  #E3D7BD;
+            border-radius: 4px;
+            background-color: white;
+            font-size: 16px;
+            color: black;
+            resize: none;
+        }
+
+        .line {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 50px;
+        }
+
+        iframe {
+            width: 100%; 
+            height: 600px; 
+            border: 0;
+            margin-top: 100px; 
+            margin-bottom: 100px;
+            padding-left: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column; 
+                align-items: center; 
+            }
+
+            .one {
+                width: 90%; 
+                min-width: auto;
+            }
+
+            iframe {
+                width: 80%; 
+                height: 400px; 
+            }
+        }
+
+        button {
+            width: 150px; 
+            padding: 10px;
+            background-color: #DACBA9;             
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px; 
+        }
+
+        button:hover {
+            background-color: #E9E4D4;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body> 
+    <div>
+        <nav>
+            <ul>
+                <li style="float: left; padding-top: 1px;padding-left: 1px;">
+                    <img src="Tea.png" alt="Company Logo" height="90" width="90" align="center">
+                    <b> Tea Garden</b>
+                </li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+                <li><a href="FAQ.html"> FAQ </a></li>
+                <li><a href="Package.html">Package</a></li>                
+                <li><a href="index.html"> Homepage </a></li>  
+            </ul>
+        </nav>
+    </div>
+    <div class="intro">
+        <header>
+            <h1 style="text-align: center;"> Contact Us </h1>
+        </header>
+        <div> 
+            <p style="text-align: center;"> We welcome you to connect with us, feel free to get in touch with our social platform below. </p>
+        </div>
+        <div>
+            <ol class="line">
+                <li class="media">
+                    <a href="mailto:angelahoth06@gmail.com">
+                        <img src="email.png" width="100" height="100" style="border-radius: 52%;"/>
+                    </a>
+                </li>
+                <li class="media">
+                    <a href="https://www.instagram.com/studywithme_ly_th?igsh=Mnk2dXhyOGdqMW8=">
+                        <img src="Ig - Copy.png" width="100" height="100" style="border-radius: 52%;"/>
+                    </a>
+                </li>
+                <li class="media">
+                    <a href="https://www.linkedin.com/in/ho-tian-hui-171703283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                        <img src="linkin.webp" width="100" height="100" style="border-radius: 52%;"/>
+                    </a>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="form">
+            <h1 style="text-align: center;"> Feedback form </h1>
+            <p style="text-align: center;"> We welcome your feedback, feel free to get in touch with us using the form below. </p>
+
+            <form action="/action_page.php" method="post" id="myForm">
+                <label for="fname"> First name: </label><br> 
+                <input type="text" name="name" id="fname" placeholder="Angela"/> <br>
+
+                <label for="lname"> Last name: </label><br>
+                <input type="text" name="name" id="lname" placeholder="Ho"/><br> 
+
+                <label for="phone"> Phone Number:</label><br>
+                <input type="number" id="phone" name="phone" placeholder="12345678"><br>
+
+                <label for="email"> Email:</label><br>
+                <input id="email" type="email" name="email" id="email" placeholder="Angelaho@gmail.com"/><br>
+
+                <p> Leave us a few words! :</p>
+                <textarea></textarea><br>
+
+                <button type="submit"> Submit </button>
+                <button type="reset"> Clear </button>
+            </form>
+            
+        </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1631.4556291358633!2d103.91649839171302!3d1.3940854551334159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3df84345bd1f%3A0xc2ed029912a0eba5!2sBLG%20Nursery!5e0!3m2!1sen!2ssg!4v1716259012778!5m2!1sen!2ssg" width="50%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <footer>
+        <img src="Tea.png" height="150" width="150">
+        <div class="content">
+            <div class="sitemap">
+                <h2>Site Map</h2>
+                <ul> 
+                    <li> <a href="index.html">Homepage</a></li>
+                    <li> <a href="Package.html">Package</a></li>
+                    <li> <a href="FAQ.html">FAQ</a></li>
+                    <li> <a href="Contactus.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="ContactUs">
+                <h2>Contact Us</h2>
+                <ul> 
+                    <li> <a href="https://www.instagram.com/studywithme_ly_th?igsh=Mnk2dXhyOGdqMW8="> Instagram </a></li>
+                    <li> <a href="https://www.linkedin.com/in/ho-tian-hui-171703283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> Linkedin</a></li>
+                    <li> <a href="mailto:angelahoth06@gmail.com"> Email</a></li>
+                </ul>
+            </div>
+                <div class="Helpful">
+                    <h2>Helpful Links</h2>
+                    <ul> 
+                        <li> <a href="DeliveryQ.html"> Delivery Questions  </a></li>
+                        <li> <a href="PaymentQ.html"> Payment Questions </a></li>
+                        <li> <a href="RefundQ.html"> Refund Questions </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="credit">
+                <hr>
+                <p>&copy; Angela 2024</p>
+            </div>
+        </footer>
+        <script>
+    function clearContent() {
+            document.querySelector('.details').innerHTML = '';
+        }
+
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            alert('Form submitted!');
+        });
+        </script>
+    </body>
+</html>

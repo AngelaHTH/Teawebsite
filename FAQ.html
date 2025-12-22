@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title> FAQ </title>
+        <link rel="icon" href="Tea.png" style="border-radius: 100px;"/>        
+        <link rel="Stylesheet" href="tea.css">
+        <style>
+            nav {
+                background-image: url("faq.jpg");
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat; 
+                height: 650px; 
+                width: 100%;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            .info {
+                background-color: #DACBA9;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            .faq {
+                background-color: #E2DAC6;
+                padding: 20px;
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                align-items: center;
+            }
+
+            summary {
+                align-items: center;
+                padding: 20px;
+                width: 70%;
+                border: none;
+                cursor: pointer;
+            }
+            .category {
+                background-color: #E2DAC6;
+                padding: 30px;
+                text-align: center;
+            }
+
+            .category h1 {
+                margin-bottom: 30px;
+            }
+
+            .group {
+                display: flex;
+                flex-wrap: nowrap; 
+                gap: 20px; 
+                justify-content: center; 
+                padding: 20px; 
+            }
+
+            .questions {
+                flex: 1 1 30%; 
+                max-width: 30%; 
+                padding: 20px; 
+                border: 1px solid #ddd;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                background-color: white;
+                text-align: center;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                display: flex;
+                flex-direction: column; 
+                align-items: center; 
+            }
+
+            .questions img {
+                width: 60%; 
+                height: auto;
+                border-radius: 10px;
+                margin-bottom: 10px; 
+            }
+
+            .questions a {
+                font-size: 1.2em; 
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .questions:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+
+        </style>
+    </head>
+    <body> 
+        <div>
+            <nav>
+                <ul>
+                    <li style="float: left; padding-top: 1px;padding-left: 1px;"><img src="Tea.png" "alt="Company Logo" height="90" width="90" align="center">
+                        <b> Tea Garden</b>
+                        </li>
+                    <li><a href="Contactus.html">Contact Us</a></li>
+                    <li><a href="FAQ.html"> FAQ </a></li>
+                    <li><a href="Package.html">Package</a></li>                
+                    <li><a href="index.html"> Homepage </a></li>  
+                </ul>
+            </nav>
+        </div>
+
+        <div class="info">
+            <header>
+                <h1 style="text-align: center;"> Operating Hours </h1>
+            </header>
+            <div> 
+                <p style="text-align: center;"> Monday to Friday: 10am - 8pm </p>
+                <p style="text-align: center;"> Saturday, Sunday and PH: 10am - 9pm </p>
+            </div>
+        </div>
+
+        <div class="category">
+            <h1> Frequently Asked Questions </h1>
+            <div class="group">
+                <div class="questions">
+                    <img src="deliver.png" alt="Delivery Questions" width="100" height="auto">
+                    <a href="DeliveryQ.html">Delivery Questions</a> 
+                </div>
+                <div class="questions">
+                    <img src="payment.png" alt="Payment Questions" width="100" height="auto">
+                    <a href="PaymentQ.html">Payment Questions</a> 
+                </div>
+                <div class="questions">
+                    <img src="refund.png" alt="Refund Questions" width="100" height="auto">
+                    <a href="RefundQ.html">Refund Questions</a> 
+                </div>
+            </div>
+        </div>
+                
+ 
+        <div class="faq">
+            <h1> General Frequently Asked Questions </h1>
+            <details>
+                <summary> 
+                    What payment method do we accept?
+                </summary>
+                <p> &nbsp;&nbsp;&nbsp; 
+                    We current accept PayNow, PayLah and Nets payment.
+                </p>
+            </details>
+
+            <details>
+                <summary> 
+                    Do we ship internationaly?
+                </summary>
+                <p> &nbsp;&nbsp;&nbsp; 
+                We currently do not provide international shipping as we only provide shipping in singapore
+                </p>
+            </details>
+
+            <details>
+                <summary> 
+                    Who can i contact if i have any payment issues?
+                </summary>
+                <p> &nbsp;&nbsp;&nbsp; 
+                    You can contact our hotline <a href="Contactus.html"> here </a>
+                </p>
+            </details>
+
+            <details>
+                <summary> 
+                    Is there a delivery fee?
+                </summary>
+                <p> &nbsp;&nbsp;&nbsp; 
+                    Delivery charge applies and differ based on your order, location. 
+                    For purchase over $50 free delivery will be provided 
+                </p>
+            </details>
+
+            <details>
+                <summary> 
+                    What are your delivery working hours?
+                </summary>
+                <p> &nbsp;&nbsp;&nbsp; 
+                We deliver from 8am to 7pm during weekday. 
+                Please note that we do not do deliver during public hoilday and weekend.
+                </p>
+            </details>
+
+            <details>
+                <summary> 
+                    What are your delivery duration?
+                </summary>
+                <p> &nbsp;&nbsp;&nbsp; 
+                Normally, it would take 1-3 working days. 
+                If you did not received your delivery within 7 working day feel free to call us!
+                </p>
+            </details>
+
+            <details>
+                <summary> 
+                    Who can i contact if i have any delivery issues?
+                </summary>
+                <p> &nbsp;&nbsp;&nbsp; 
+                You can contact our hotline <a href="Contactus.html"> here. </a>
+                </p>
+            </details>
+
+            <details>
+                <summary> 
+                    What is your refund policy?
+                </summary>
+                <p> &nbsp;&nbsp;&nbsp; 
+                  Our current refund policy is the item must be in good condition and not open. Our refund period is within 14 days after purchase.
+                </p>
+            </details>
+
+            <details>
+                <summary> 
+                    How do i request for refund?
+                </summary>
+                <p> &nbsp;&nbsp;&nbsp; 
+                    Customer can either fill up the feedback form or contact us for any enquires.via our <a href="Contactus.html"> contact us page. </a> 
+                </p>
+            </details>
+
+            <details>
+                <summary> 
+                    What is your exhange policy?
+                </summary>
+                <p> &nbsp;&nbsp;&nbsp; 
+                  We would require customer to contact us via our <a href="Contactus.html"> contact us page. </a> Customer are also to ensure that the item is in good condition and the item is not open. 
+                </p>
+            </details>
+
+            <details>
+                <summary> 
+                    How long does the refund process takes?
+                </summary>
+                <p> &nbsp;&nbsp;&nbsp; 
+                  Normally, our refund process would taking 3-7 working days. If you did not received your refund after 14 working day feel free to contact us. 
+                </p>
+            </details>
+        </div>
+        
+        <footer>
+            <img src="Tea.png" height="150" width="150">
+            <div class="content">
+                <div class="sitemap">
+                    <h2>Site Map</h2>
+                    <ul> 
+                        <li> <a href="index.html">Homepage</a></li>
+                        <li> <a href="Package.html">Package</a></li>
+                        <li> <a href="FAQ.html">FAQ</a></li>
+                        <li> <a href="Contactus.html">Contact us</a></li>
+                    </ul>
+                </div>
+    
+                <div class="ContactUs">
+                    <h2>Contact Us</h2>
+                    <ul> 
+                        <li> <a href="https://www.instagram.com/studywithme_ly_th?igsh=Mnk2dXhyOGdqMW8="> Instagram </a></li>
+                        <li> <a href="https://www.linkedin.com/in/ho-tian-hui-171703283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> Linkedin</a></li>
+                        <li> <a href="mailto:angelahoth06@gmail.com"> Email</a></li>
+                    </ul>
+                </div>
+    
+                <div class="Helpful">
+                    <h2>Helpful Links</h2>
+                    <ul> 
+                        <li> <a href="DeliveryQ.html"> Delivery Questions  </a></li>
+                        <li> <a href="PaymentQ.html"> Payment Questions </a></li>
+                        <li> <a href="RefundQ.html"> Refund Questions </a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="credit">
+                <hr>
+                <p>&copy; Angela 2024</p>
+            </div>
+        </footer>
+        
+    </body>
+</html>

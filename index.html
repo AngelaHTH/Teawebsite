@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title> Hompage </title>
+        <link rel="icon" href="Tea.png" style="border-radius: 100px;"/>
+        <link rel="Stylesheet" href="tea.css">
+        <style>
+            nav {
+                background-image: url("home.jpeg");
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat; 
+                height: 600px; 
+                width: 100%;   
+                padding-bottom:50px;     
+            }
+
+
+            .history, .review{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin: 20px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                border-radius: 30px; 
+                background-color: #E2DAC6;
+            }
+
+            .background {
+                border-radius: 30px;
+                background-color: #E2DAC6;
+                margin: 20px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 100px;
+                padding-bottom: 100px;
+                text-align: center;
+                overflow: auto; 
+            }
+
+            .background img {
+                float: left;
+                margin-right: 20px; 
+            }
+
+            @media (max-width: 768px) {
+                .background img {
+                    float: none;
+                    display: block;
+                    margin: 0 auto 20px auto; 
+                }
+            }
+
+            .mission {
+                border-radius: 30px; 
+                background-color: #E2DAC6;
+                margin: 20px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 100px;
+                padding-bottom: 100px;
+                align-items: center;
+                text-align: center;
+            }
+
+            .vision {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 20px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            .details {
+                flex: 1 1 calc(50% - 20px); 
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #ddd;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 15px;
+                display: inline-block; 
+                vertical-align: top; 
+                box-sizing: border-box; 
+                background-color: white;
+            }
+
+            .cusomter p {
+                margin: 0; 
+            }
+
+            .hide {
+                display: none;
+            }
+            
+            .details:hover .hide {
+                display: block;
+            }
+
+            .slideshow {
+                padding-top: 50px;
+                padding-bottom: 50px;
+                width: 100%;
+                text-align: center;                
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body> 
+        <div>            
+            <nav>
+                <ul>
+                    <li style="float:left"><img src="Tea.png" alt="Company Logo" height="90" width="90" align="center"> <b> Tea Garden </b> </li>
+                    <li><a href="Contactus.html">Contact Us</a></li>
+                    <li><a href="FAQ.html"> FAQ </a></li>
+                    <li><a href="Package.html">Package</a></li>                
+                    <li><a href="index.html"> Homepage </a></li>  
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="history"> 
+            <h1> Our History </h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Oe6kGFmFLnc?si=ecOava7sl41vdgon&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+
+        <div class="background">             
+            <img src="Tea.png" width="200px" height="auto">
+            <h1> Our Background </h1>
+            <p style="font-size: 110%;"> 
+                Welcome to tea garden where every slip tells a story. 
+                Founded in 2024, Tea Garden was born with passion for the enriching traditions and unique tea flavors.  
+                Our founder, discover a deep appreciation for tea and set out an mission to share those exquisite blends.
+                At Tea Garden, we believe in the artistry and heritage of tea-making. Our journey began with a single tea leaf and has grown into a thriving community of tea enthusiasts. 
+            </p>
+        </div>
+
+
+
+        <div class="mission">
+            <h1> Our Mission </h1>
+                <p style="font-size: 110%;"> 
+                    "At Tea garden, our mission is to cultivate a global community that celebrates the rich diversity of tea. We are dedicated to providing the highest quality, ethically sourced teas that enrich the mind, body, and spirit. Through sustainable practices and a commitment to excellence, we strive to inspire moments of peace, connection, and wellness in every cup."
+                </p>
+                <p style="text-decoration: underline;font-size: 110%;"> Click each section name to find out more </p>
+            <div class="vision">
+                <div class="details">
+                    <img src="authentic.jpg" alt="authentic&quaility" width="350" height="auto">
+                    <h3> Authentic & Quaility Tea </h3>
+                    <p class="hide"> 
+                        At Tea garden, our mission is to deliver the highest quality and most authentic tea products to our customers. We are deeply committed to ensuring that every cup of tea embodies excellence and genuine flavor.
+                    </p>
+                </div>
+        
+                <div class="details">
+                    <img src="sustainability.jpg" alt="sustainability" width="350" height="auto">
+                    <h3> Sustainability </h3>
+                    <p class="hide"> 
+                        We prioritize sustainable practices in every aspect of our business, from sourcing the finest tea leaves to our eco-friendly production and packaging processes. We strive to protect the environment and support the communities where our teas are grown.
+                    </p>
+                </div>
+                
+                <div class="details">
+                    <img src="customer_experience.jpeg" alr="Customer Experience" width="350" hight="auto">
+                    <h3> Customer Experience </h3>
+                    <p class="hide"> 
+                        Customer experience is at the heart of everything we do. We aim to deliver an exceptional and memorable experience with every interaction, building lasting relationships with our customers through outstanding service and a shared passion for tea.
+                    </p>
+                </div>
+        
+                <div class="details">
+                    <img src="Innovation.jpg" alr="Innovation" width="350" hight="auto">
+
+                    <h3> Innovation </h3>
+                    <p class="hide"> 
+                        We believe in balancing innovation with tradition. We continuously seek innovative ways to enhance our products and practices. This fusion allows us to offer a diverse range of teas that delight the senses and cater to the evolving tastes of our customers. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="review">
+            <h1> Customer Review </h1>
+            <div class="slideshow" style="max-width:500px">
+                <img class="mySlides" src="review1.png" style="width:100%">
+                <img class="mySlides" src="review2.png" style="width:100%">
+                <img class="mySlides" src="review3.png" style="width:100%">
+                <img class="mySlides" src="review4.png" style="width:100%">
+            </div>
+        </div>
+    
+        <footer>
+            <img src="Tea.png" height="150" width="150">
+            <div class="content">
+                <div class="sitemap">
+                    <h2>Site Map</h2>
+                    <ul> 
+                        <li> <a href="index.html">Homepage</a></li>
+                        <li> <a href="Package.html">Package</a></li>
+                        <li> <a href="FAQ.html">FAQ</a></li>
+                        <li> <a href="Contactus.html">Contact us</a></li>
+                    </ul>
+                </div>
+    
+                <div class="ContactUs">
+                    <h2>Contact Us</h2>
+                    <ul> 
+                        <li> <a href="https://www.instagram.com/studywithme_ly_th?igsh=Mnk2dXhyOGdqMW8="> Instagram </a></li>
+                        <li> <a href="https://www.linkedin.com/in/ho-tian-hui-171703283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> Linkedin</a></li>
+                        <li> <a href="mailto:angelahoth06@gmail.com"> Email</a></li>
+                    </ul>
+                </div>
+    
+                <div class="Helpful">
+                    <h2>Helpful Links</h2>
+                    <ul> 
+                        <li> <a href="DeliveryQ.html"> Delivery Questions  </a></li>
+                        <li> <a href="PaymentQ.html"> Payment Questions </a></li>
+                        <li> <a href="RefundQ.html"> Refund Questions </a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="credit">
+                <hr>
+                <p>&copy; Angela 2024</p>
+            </div>
+        </footer>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); 
+            }
+        </script>
+    </body>
+</html>
